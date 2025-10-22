@@ -1,0 +1,27 @@
+use usuariosadmon;
+create table Mecanicoss(
+    ID int(11) NOT NULL IDENTITY(1, 1),
+    UNIDAD_FISICA int(11),
+    DESCRIPCION_UNIDAD text,
+    RFC varchar(13),
+    CURP varchar(18),
+    PRIMER_APELLIDO text,
+    SEGUNDO_APELLIDO text,
+    NOMBRE_EMPLEADO text,
+    SEGURIDAD_SOCIAL int(11),
+    PLAZA int(5),
+    PUESTO_FUNCIONAL varchar(7),
+    NIVEL_DE_PUESTO varchar(3),
+    CODIGO_DE_PUESTO varchar(11),
+    NOMBRE_DE_PUESTO text,
+    TIPO_DE_CONTRATACION text,
+    TIPO_NOMBRAMIENTO text,
+    INICIO_CONTRATACION date,
+    FIN_CONTRATACION date,
+    DOMICILIO_OFICIAL text,
+    CORREO_OFICIAL text,
+    TELEFONO_OFICIAL int(11),
+    USUARIO int(4),
+    PASSWORD text,
+    PRIMARY KEY (ID)
+);

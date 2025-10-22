@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background: rgba(255, 255, 255, 0.733);
+}
+#Ini_header{
+    background-color: #071275;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+#Ini_nav{
+    background-color: #071275;
+}
+.BarraP{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #071275;
+}
+.BarraPp{
+    float: left;
+}
+.BarraPp .Rutas:hover{
+    background-color: #08828b;
+}
+.BarraPp .Rutas{
+    display: inline-block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.BarraP .Rutas:hover {
+    background-color: #08828b;
+}
+.BarraPp {
+    display: inline-block;
+}
+.Rutas{
+    color: #000000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.Rutas:hover {
+    background-color: #ccccff;
+}
+.wrap {
+	margin: auto;
+	max-width: 800px;
+	width: 90%;
+}
+ 
+.principal {
+	background: rgb(54, 67, 244);
+	border-top: 20px solid rgb(54, 67, 244);
+	color: #fff;
+	padding: 50px 0;
+	width: 100%;
+}
+ 
+.principal .formulario {
+	color: #212121;
+	text-align: center;
+}
+ 
+.principal .formulario input[type=text] {
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 100%;
+}
+ 
+.principal .formulario input[type=text].error {
+	border: 5px solid rgb(54, 67, 244);
+	color: rgb(54, 67, 244);
+}
+ 
+.principal .formulario .boton {
+	background: none;
+	border: 1px solid rgb(54, 67, 244);
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	padding: 15px;
+}
+ 
+.principal .formulario .boton:hover {
+	border: 1px solid #fff;
+}
+ 
+.tareas{
+    background-color: #00ccb1;
+}
+.tareas .lista {
+	list-style: none;
+}
+ 
+.tareas .lista li {
+	border-bottom: 1px solid #B6B6B6;
+}
+ 
+.tareas .lista li a {
+	color: #212121;
+	display: block;
+	padding: 20px 0;
+	text-decoration: none;
+}
+ 
+.tareas .lista li a:hover {
+	text-decoration: line-through;
+}

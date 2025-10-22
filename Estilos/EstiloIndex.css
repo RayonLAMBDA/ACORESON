@@ -1,0 +1,77 @@
+body{
+    margin: 0px;
+    background: url(../Imagenes/fondo1.jpg) no-repeat center center fixed;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.padre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.contenedor{
+    width: 49%;
+    margin: 1% 1% 1% 1%;
+    display: flex;
+    flex-direction: row;
+    min-width: 100%;
+    height: 100%;
+}
+.contenedor > div{
+    flex:1;
+    display: flex;
+}
+.der{
+    background: rgba(255, 255, 255, .6);
+    height: 100%;
+    width: 100%;
+}
+.hijo{
+    position: static;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.nieto{
+    display: block;
+    width: fit-content;
+    position: static;
+    text-align: center;
+    background: rgba(255, 255, 255, .2);
+    top: 200px;
+}
+.botoncito{
+    width: 110px;
+    height: 40px;
+    border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 29px 29px 29px 29px;
+    background-color: #13A8CD;
+    border-color: rgb(10, 104, 128);
+    color: rgb(10, 104, 128);
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    left: 330px;
+}
+h1{
+    color: #000000;
+}
+.imagensita{
+    align-content: center;
+    width: 300px;
+    height: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
